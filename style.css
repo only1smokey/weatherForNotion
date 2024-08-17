@@ -9,7 +9,52 @@ body {
     margin: 0;
     overflow: hidden;
     overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-x: hidden;body {
+        background: transparent;
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    
+    
+    }
+    
+    .container {
+        text-align: center;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+    
+    h1 {
+        font-size: 0.8em;
+        margin-bottom: 20px;
+    }
+    
+    .weather-info {
+        font-size: 0.8em;
+    }
+    
+    #current-time {
+        font-size: 0.8em;
+        margin-bottom: 10px;
+    }
+    
+    #current-temperature {
+        font-size: 0.8em;
+        margin-bottom: 10px;
+    }
+    
+    p {
+        font-size: 0.2em;
+    }
 
 
 }
@@ -23,21 +68,21 @@ body {
 }
 
 h1 {
-    font-size: 0.5em;
+    font-size: 0.8em;
     margin-bottom: 20px;
 }
 
 .weather-info {
-    font-size: 0.5em;
+    font-size: 0.8em;
 }
 
 #current-time {
-    font-size: 0.5em;
+    font-size: 0.8em;
     margin-bottom: 10px;
 }
 
 #current-temperature {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-bottom: 10px;
 }
 
