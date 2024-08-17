@@ -1,5 +1,5 @@
 body {
-    background-color: #1e1e1e;
+    background: transparent;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
     display: flex;
@@ -7,6 +7,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+
 }
 
 .container {
@@ -18,12 +23,12 @@ body {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
 .weather-info {
-    font-size: 1.5em;
+    font-size: 0.5em;
 }
 
 #current-time {
