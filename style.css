@@ -23,7 +23,7 @@ body {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 0.5em;
     margin-bottom: 20px;
 }
 
@@ -32,15 +32,15 @@ h1 {
 }
 
 #current-time {
-    font-size: 2em;
+    font-size: 0.5em;
     margin-bottom: 10px;
 }
 
 #current-temperature {
-    font-size: 3em;
+    font-size: 1em;
     margin-bottom: 10px;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 0.2em;
 }
